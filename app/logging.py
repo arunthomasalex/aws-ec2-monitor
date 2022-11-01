@@ -15,4 +15,3 @@ def get_logger(name, file=None):
 
 if __name__ == "__main__":
     logger = get_logger('test')
-    logger.error("Hello World!")
