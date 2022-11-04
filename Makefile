@@ -4,5 +4,5 @@ edit:
 
 test:
 	@-mkdir .tmp
-	@cd .tmp && python -m unittest discover ../app/tests -s ../ -v
+	@cd .tmp && python -m unittest discover ../tests -s ../ -v
 	@rm -rf .tmp
