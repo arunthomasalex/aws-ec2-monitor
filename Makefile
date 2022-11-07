@@ -1,6 +1,8 @@
-edit:
-	@rm -rf dist
+edit: clean
 	@python -m build
+
+clean:
+	@rm -rf dist
 
 test:
 	@-mkdir .tmp
