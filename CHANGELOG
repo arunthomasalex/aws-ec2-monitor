@@ -10,4 +10,4 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Scans the to and fro packets from the linux machine and stop's the aws linux node when no request are received or send in a given time slot.
 - This version has the capability to stop only itself.
 
-[1.0.0]: https://github.com/olivierlacan/keep-a-changelog/releases/tag/v0.0.1
+[1.0.0]: https://github.com/arunthomasalex/aws-ec2-monitor/commits/v1.0.0
