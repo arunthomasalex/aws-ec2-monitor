@@ -18,9 +18,11 @@ The scope of this project is to automatically shutdown an aws instance on itself
   
 ### Executing program
 * After installing the '.whl' file using pip command you can run the following command to start the service.
+
 ```
  aws-monitor -s <SRC_PORT> -d <DEST_PORT> -l <LOGFILE> -t <TIME_IN_HRS>
  ```
+ 
 * If no <SRC_PORT>/<DEST_PORT> are specified then by deafult all ports will be checked.
 * The <LOGFILE> will have the request or response that was scanned by the application.
 * The <TIME_IN_HRS> can be integer or float, eg value '1' is 1 hr and '1.5' is 1 hr and 30 min.
